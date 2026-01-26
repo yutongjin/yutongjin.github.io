@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yutong Jin</title><link>https://yutongjin.com/</link><description>Recent content on Yutong Jin</description><generator>Hugo -- 0.154.5</generator><language>en-us</language><lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://yutongjin.com/posts/hello-world/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://yutongjin.com/posts/hello-world/</guid><description>&lt;p&gt;这是我重新开始写博客的第一篇文章。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title/><link>https://yutongjin.com/</link><description>Recent content on</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://yutongjin.com/posts/hello-world/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://yutongjin.com/posts/hello-world/</guid><description>&lt;p&gt;hi 这是我重新开始写博客的第一篇文章。&lt;/p&gt;
 &lt;p&gt;过去几年，我主要把精力放在 &lt;strong&gt;工作、系统设计和工程实践&lt;/strong&gt; 上，很少系统性地记录自己的思考。但随着经验的积累，我越来越意识到：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;不写下来，很多东西会慢慢消失。&lt;/strong&gt;&lt;/p&gt;
@@ -47,4 +47,8 @@
 &lt;p&gt;节奏不会快，但会尽量 &lt;strong&gt;长期更新&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;如果你看到这里，感谢阅读。&lt;br&gt;
-博客，正式重新启动。&lt;/p&gt;</description></item></channel></rss>
+博客，正式重新启动。&lt;/p&gt;</description></item><item><title>Now</title><link>https://yutongjin.com/now/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yutongjin.com/now/</guid><description>&lt;ul&gt;
+&lt;li&gt;👨‍💻 Software Engineer&lt;/li&gt;
+&lt;li&gt;📚 最近在研究：Distributed Systems&lt;/li&gt;
+&lt;li&gt;✍️ 正在写：瞎写&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Search</title><link>https://yutongjin.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yutongjin.com/search/</guid><description/></item></channel></rss>
