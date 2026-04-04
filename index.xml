@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yutong Jin</title><link>https://yutongjin.com/</link><description>Recent content on Yutong Jin</description><generator>Hugo -- 0.154.5</generator><language>en-us</language><lastBuildDate>Tue, 27 Jan 2026 19:44:50 -0800</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Layoff</title><link>https://yutongjin.com/posts/my-new-post/</link><pubDate>Tue, 27 Jan 2026 19:44:50 -0800</pubDate><guid>https://yutongjin.com/posts/my-new-post/</guid><description>&lt;p&gt;Both the first- and second-level leaders were laid off on the same day.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yutong Jin</title><link>https://yutongjin.com/</link><description>Recent content on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 27 Jan 2026 19:44:50 -0800</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Designing Instagram: Media Upload &amp; Feed System</title><link>https://yutongjin.com/posts/sd_learning_ins/</link><pubDate>Tue, 27 Jan 2026 19:44:50 -0800</pubDate><guid>https://yutongjin.com/posts/sd_learning_ins/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;When designing an Instagram-like system, two of the most critical components are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Media uploading pipeline&lt;/li&gt;
+&lt;li&gt;Feed generation strategy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This post summarizes key design decisions and tradeoffs.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="1-media-uploading-pipeline"&gt;1. Media Uploading Pipeline&lt;/h2&gt;
+&lt;h3 id="high-level-flow"&gt;High-level flow&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Client requests a &lt;strong&gt;pre-signed URL&lt;/strong&gt; from backend&lt;/li&gt;
+&lt;li&gt;Backend returns S3 pre-signed URL&lt;/li&gt;
+&lt;li&gt;Client uploads media &lt;strong&gt;directly to S3 (chunked upload)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;S3 triggers an event (e.g., via notification / event bridge)&lt;/li&gt;
+&lt;li&gt;Backend processes the upload asynchronously&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id="key-design-decisions"&gt;Key design decisions&lt;/h3&gt;
+&lt;h4 id="1-create-post-record-early"&gt;1. Create post record early&lt;/h4&gt;
+&lt;p&gt;Before upload starts:&lt;/p&gt;</description></item><item><title>Layoff</title><link>https://yutongjin.com/posts/my-new-post/</link><pubDate>Tue, 27 Jan 2026 19:44:50 -0800</pubDate><guid>https://yutongjin.com/posts/my-new-post/</guid><description>&lt;p&gt;Both the first- and second-level leaders were laid off on the same day.
 The team suddenly lost its sense of direction, moving like a group of headless flies.&lt;/p&gt;
 &lt;p&gt;The external market offers little comfort.
 Every round of layoffs pushes another wave of strong candidates into the job pool.
