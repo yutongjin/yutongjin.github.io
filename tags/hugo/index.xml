@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hugo on Yutong Jin</title><link>https://yutongjin.com/tags/hugo/</link><description>Recent content in Hugo on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Design Doc: Posting to My Hugo Blog Directly from iPhone</title><link>https://yutongjin.com/posts/iphone-blog-publishing-design/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://yutongjin.com/posts/iphone-blog-publishing-design/</guid><description>&lt;h1 id="design-doc-posting-to-my-hugo-blog-directly-from-iphone"&gt;Design Doc: Posting to My Hugo Blog Directly from iPhone&lt;/h1&gt;
+&lt;h2 id="1-problem"&gt;1. Problem&lt;/h2&gt;
+&lt;p&gt;I wanted a low-friction way to publish to my blog from my iPhone.&lt;/p&gt;
+&lt;p&gt;The original blog setup was simple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;content lives in Markdown inside a Hugo repo&lt;/li&gt;
+&lt;li&gt;GitHub Actions builds and deploys the site&lt;/li&gt;
+&lt;li&gt;GitHub Pages serves the final static output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That setup is good for reliability, but not good for writing on mobile. Editing Markdown through GitHub’s mobile UI technically works, but it is still a repo workflow, not a writing workflow.&lt;/p&gt;</description></item></channel></rss>
