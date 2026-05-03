@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yutong Jin</title><link>https://yutongjin.com/</link><description>Recent content on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 May 2026 00:00:00 -0700</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Write</title><link>https://yutongjin.com/write/</link><pubDate>Sat, 02 May 2026 00:00:00 -0700</pubDate><guid>https://yutongjin.com/write/</guid><description>&lt;p&gt;Update the blog from your iPhone with GitHub&amp;rsquo;s mobile editor.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Yutong Jin</title><link>https://yutongjin.com/</link><description>Recent content on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 02 May 2026 00:00:00 -0700</lastBuildDate><atom:link href="https://yutongjin.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Admin</title><link>https://yutongjin.com/admin/</link><pubDate>Sat, 02 May 2026 00:00:00 -0700</pubDate><guid>https://yutongjin.com/admin/</guid><description/></item><item><title>Write</title><link>https://yutongjin.com/write/</link><pubDate>Sat, 02 May 2026 00:00:00 -0700</pubDate><guid>https://yutongjin.com/write/</guid><description>&lt;p&gt;Update the blog from your iPhone.&lt;/p&gt;
+&lt;p&gt;Preferred flow:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;a href="https://yutongjin.com/admin/"&gt;Admin&lt;/a&gt; to create a post in the private mobile editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fallback flow:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use GitHub&amp;rsquo;s mobile editor if the private publisher is unavailable.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Best flow:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Install the GitHub app on your iPhone and sign in.&lt;/li&gt;
@@ -12,12 +20,7 @@
 &lt;li&gt;&lt;a href="https://github.com/yutongjin/blog/edit/main/content/projects.md"&gt;Edit Projects page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/yutongjin/blog/tree/main/content/posts"&gt;All posts folder&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Notes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New posts live in &lt;code&gt;content/posts/&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;The front matter at the top controls the title, date, draft status, and tags.&lt;/li&gt;
-&lt;li&gt;If you save a post with &lt;code&gt;draft: true&lt;/code&gt;, Hugo will keep it out of the published site.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Relational DB vs NoSQL</title><link>https://yutongjin.com/posts/419_learning/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://yutongjin.com/posts/419_learning/</guid><description>&lt;h2 id="relational-db-vs-nosql--interview-answer-template-with-qps-details"&gt;Relational DB vs NoSQL — Interview Answer Template (with QPS Details)&lt;/h2&gt;
+&lt;p&gt;Notes:&lt;/p&gt;</description></item><item><title>Relational DB vs NoSQL</title><link>https://yutongjin.com/posts/419_learning/</link><pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate><guid>https://yutongjin.com/posts/419_learning/</guid><description>&lt;h2 id="relational-db-vs-nosql--interview-answer-template-with-qps-details"&gt;Relational DB vs NoSQL — Interview Answer Template (with QPS Details)&lt;/h2&gt;
 &lt;h3 id="1-throughput--scalability"&gt;1. Throughput &amp;amp; Scalability&lt;/h3&gt;
 &lt;p&gt;A relational database like MySQL can handle moderate QPS well.&lt;/p&gt;
 &lt;h4 id="rough-numbers-rule-of-thumb-varies-by-setup"&gt;Rough Numbers (rule of thumb, varies by setup):&lt;/h4&gt;
