@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Gaming on Yutong Jin</title><link>https://yutongjin.com/tags/gaming/</link><description>Recent content in Gaming on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/gaming/index.xml" rel="self" type="application/rss+xml"/><item><title>LOLSummonerInfoApp</title><link>https://yutongjin.com/projects/13-lol-summoner-info-app/</link><pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate><guid>https://yutongjin.com/projects/13-lol-summoner-info-app/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;LOLSummonerInfoApp&lt;/code&gt; is a React app built around League of Legends player information. The repo structure is straight Create React App, which suggests the focus was on product behavior and API/UI integration rather than custom build tooling.&lt;/p&gt;
+&lt;h2 id="what-it-represents"&gt;What It Represents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;game-adjacent product building&lt;/li&gt;
+&lt;li&gt;React single-page app workflow&lt;/li&gt;
+&lt;li&gt;pulling structured data into a user-facing dashboard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stack"&gt;Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;React&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;HTML/CSS&lt;/li&gt;
+&lt;li&gt;Create React App&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="repo"&gt;Repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/yutongjin/LOLSummonerInfoApp"&gt;yutongjin/LOLSummonerInfoApp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

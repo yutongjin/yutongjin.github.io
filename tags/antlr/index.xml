@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Antlr on Yutong Jin</title><link>https://yutongjin.com/tags/antlr/</link><description>Recent content in Antlr on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 23 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/antlr/index.xml" rel="self" type="application/rss+xml"/><item><title>NorthEast</title><link>https://yutongjin.com/projects/14-northeast/</link><pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate><guid>https://yutongjin.com/projects/14-northeast/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;NorthEast&lt;/code&gt; is a Java/Maven project with ANTLR-generated code plus frontend assets. Even with a sparse README, the structure suggests a project that combined language tooling or parsing work with a browser-facing layer, which makes it different from the earlier CRUD-style app repos.&lt;/p&gt;
+&lt;h2 id="what-it-represents"&gt;What It Represents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a more technical Java project shape&lt;/li&gt;
+&lt;li&gt;parser or language-processing work through ANTLR&lt;/li&gt;
+&lt;li&gt;combining backend logic with a user-facing interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stack"&gt;Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;Maven&lt;/li&gt;
+&lt;li&gt;ANTLR&lt;/li&gt;
+&lt;li&gt;HTML/CSS/JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="repo"&gt;Repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/yutongjin/NorthEast"&gt;yutongjin/NorthEast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

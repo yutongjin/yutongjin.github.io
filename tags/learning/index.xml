@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Learning on Yutong Jin</title><link>https://yutongjin.com/tags/learning/</link><description>Recent content in Learning on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 20 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/learning/index.xml" rel="self" type="application/rss+xml"/><item><title>Ruby</title><link>https://yutongjin.com/projects/07-ruby/</link><pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate><guid>https://yutongjin.com/projects/07-ruby/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This repo is extremely small, but it marks the start of a Ruby learning phase. It looks like a scratch repo used to anchor notes or simple exercises while I was switching into Rails-oriented work.&lt;/p&gt;
+&lt;h2 id="what-it-represents"&gt;What It Represents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;language ramp-up&lt;/li&gt;
+&lt;li&gt;lightweight experimentation&lt;/li&gt;
+&lt;li&gt;transition into Ruby and Rails projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stack"&gt;Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Ruby&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="repo"&gt;Repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/yutongjin/Ruby"&gt;yutongjin/Ruby&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Django on Yutong Jin</title><link>https://yutongjin.com/tags/django/</link><description>Recent content in Django on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/django/index.xml" rel="self" type="application/rss+xml"/><item><title>aram-beimei</title><link>https://yutongjin.com/projects/17-aram-beimei/</link><pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate><guid>https://yutongjin.com/projects/17-aram-beimei/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;aram-beimei&lt;/code&gt; is a Django app with Docker packaging and Fly.io deployment notes. This is one of the clearest recent repos because the README includes actual run, migration, and deploy commands, which makes the intended workflow explicit.&lt;/p&gt;
+&lt;h2 id="what-it-represents"&gt;What It Represents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a more operational Python web app&lt;/li&gt;
+&lt;li&gt;Django plus container-based deployment&lt;/li&gt;
+&lt;li&gt;a repo where local development and production deployment were both documented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stack"&gt;Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Django&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Fly.io&lt;/li&gt;
+&lt;li&gt;HTML templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="repo"&gt;Repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/yutongjin/aram-beimei"&gt;yutongjin/aram-beimei&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

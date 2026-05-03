@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Product on Yutong Jin</title><link>https://yutongjin.com/tags/product/</link><description>Recent content in Product on Yutong Jin</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yutongjin.com/tags/product/index.xml" rel="self" type="application/rss+xml"/><item><title>votwin</title><link>https://yutongjin.com/projects/15-votwin/</link><pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate><guid>https://yutongjin.com/projects/15-votwin/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;votwin&lt;/code&gt; is a lightweight idea repo described as “vote and win.” There is not much code or documentation, but it reads like a product concept capture rather than a random scratchpad.&lt;/p&gt;
+&lt;h2 id="what-it-represents"&gt;What It Represents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;a simple product prototype idea&lt;/li&gt;
+&lt;li&gt;packaging a concept into a named repo early&lt;/li&gt;
+&lt;li&gt;using GitHub as a place to hold small experiments, not only full builds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="stack"&gt;Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;concept repo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="repo"&gt;Repo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: &lt;a href="https://github.com/yutongjin/votwin"&gt;yutongjin/votwin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
