@@ -29,23 +29,7 @@ Core APIs (read/write flows) User interactions Edge cases 💡 Tip: Do NOT spend
 2. Identify the Core Bottleneck Early Before designing, ask:
 What is the expected QPS? Where will the system break first? Common bottlenecks:
 ...</p></div><footer class=entry-footer><span title='2026-04-08 00:00:00 +0000 UTC'>April 8, 2026</span></footer><a class=entry-link aria-label="post link to 10 tips for SD" href=https://yutongjin.com/posts/sd_learning_48/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>System Design Interview Feedback (Calendar System)</h2></header><div class=entry-content><p>System Design Interview Feedback (Calendar System) 🟢 Overall Feedback Functional design was mostly correct Reminder workflow was well structured High-level direction was solid Some gaps existed but were mostly trivial 🧩 Requirements & Scoping ✅ Strengths Covered core functional requirements API design was reasonable Non-functional requirements were acceptable ⚠️ Improvements Did not explicitly capture recurring events early Impacts storage, reads, and notifications 🧱 Data Modeling & Schema ✅ Strengths Entity design was reasonable Core fields identified correctly ⚠️ Improvements Avoid defining full schema too early Do schema after high-level design Partitioning strategy needs improvement 🧠 Partitioning ❌ Current approach Partition by event ID ⚠️ Problem Optimizes writes, not reads ✅ Recommended Partition by time (start time / next start time) 💡 Reason Main read paths: GET events by date range Scheduler scans Time-based partitioning narrows scan range and improves performance 🔁 Recurring Events Design ❌ Problematic approach Pre-populating all occurrences Issues Data duplication Infinite recurrence problems Hard to update or cancel ✅ Recommended Store recurrence rules and frequency Return to client Let client compute occurrences 💡 Benefits Avoid duplication Better scalability Easier maintenance 🔔 Notification / Scheduler Design ✅ Strengths Scheduler + queue architecture was correct Recognized pattern: calendar = distributed scheduler ⭐ Strong point Correct use of delayed queue (e.g., SQS) 🧠 System Pattern Recognition User provides data now, system acts later → scheduler pattern
-...</p></div><footer class=entry-footer><span title='2026-04-03 00:00:00 +0000 UTC'>April 3, 2026</span></footer><a class=entry-link aria-label="post link to System Design Interview Feedback (Calendar System)" href=https://yutongjin.com/posts/mock_learning/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent>Hello World</h2></header><div class=entry-content><p>hi 这是我重新开始写博客的第一篇文章。
-过去几年，我主要把精力放在 工作、系统设计和工程实践 上，很少系统性地记录自己的思考。但随着经验的积累，我越来越意识到：
-不写下来，很多东西会慢慢消失。
-为什么重新写博客？ 主要有三个原因：
-1. 把零散经验变成长期资产 在工程实践中，我接触了不少有挑战的问题，比如：
-高并发系统设计 数据一致性与可用性权衡 后端系统如何和 ML pipeline 协作 真实生产环境中的 trade-offs 这些东西如果只存在于脑子里，价值会迅速衰减；
-写下来，反而会不断“复利”。
-2. 逼自己把问题想清楚 很多时候：
-“我感觉我懂了” ≠ “我真的能讲清楚” 写博客是一个很残酷但有效的过程，它会暴露：
-模糊的概念 没想清楚的边界 似是而非的结论 这是我非常看重的一点。
-3. 给未来的自己留一条线索 这不是一个“教程博客”，
-更多是给 未来的自己 留的备忘录。
-如果这些内容刚好也能帮到别人，那是额外的惊喜。
-接下来会写什么？ 接下来我大概率会写这些主题：
-🧠 系统设计 & 分布式系统 ⚙️ 后端工程实践（真实踩坑） 🤖 ML Infra / MLOps 📈 技术成长 & 职业思考 ✍️ 一些不太成熟但真实的想法 节奏不会快，但会尽量 长期更新。
-如果你看到这里，感谢阅读。
-博客，正式重新启动。</p></div><footer class=entry-footer><span title='2026-01-26 00:00:00 +0000 UTC'>January 26, 2026</span></footer><a class=entry-link aria-label="post link to Hello World" href=https://yutongjin.com/posts/hello-world/></a></article></main><footer class=footer><span>&copy; 2026 <a href=https://yutongjin.com/>Yutong Jin</a></span> ·
+...</p></div><footer class=entry-footer><span title='2026-04-03 00:00:00 +0000 UTC'>April 3, 2026</span></footer><a class=entry-link aria-label="post link to System Design Interview Feedback (Calendar System)" href=https://yutongjin.com/posts/mock_learning/></a></article></main><footer class=footer><span>&copy; 2026 <a href=https://yutongjin.com/>Yutong Jin</a></span> ·
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
 <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
